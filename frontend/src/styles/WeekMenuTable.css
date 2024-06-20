@@ -1,0 +1,24 @@
+.week-menu-table {
+  margin: 20px;
+}
+
+.week-menu-table h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center; /* Center-align the heading */
+}
+
+.week-menu-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.week-menu-table th, .week-menu-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center-align the table cells */
+}
+
+.week-menu-table th {
+  background-color: #f2f2f2;
+}
