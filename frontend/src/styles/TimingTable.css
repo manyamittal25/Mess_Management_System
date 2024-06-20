@@ -1,0 +1,24 @@
+.timing-table {
+  margin: 20px;
+}
+
+.timing-table h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center; /* Center-align the heading */
+}
+
+.timing-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timing-table th, .timing-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center-align the table cells */
+}
+
+.timing-table th {
+  background-color: #f2f2f2;
+}
