@@ -8,13 +8,13 @@
 import './styles/App.css';
 // ------------------------------------------------------------
 
-import { useEffect } from "react";
+//import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "antd";
 
 // Utilities
 import AnimationLayout from "./utility/routeAnimation";
-import RemoveLoader from "./utility/removeLoader";
+//import RemoveLoader from "./utility/removeLoader";
 
 // Components
 // import MenuBar from './components/MenuBar';
