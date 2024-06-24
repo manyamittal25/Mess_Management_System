@@ -1,15 +1,6 @@
-<<<<<<< main
-// Buyer.js
-
-import mongoose from 'mongoose';
-
-// Define the Buyer schema
-const BuyerSchema = new mongoose.Schema({
-=======
 import mongoose from "mongoose";
 
 const BuyerSchema = mongoose.model("buyer", new mongoose.Schema({
->>>>>>> main
     email: String,
     secret: String,
     bought: Boolean,
@@ -87,14 +78,6 @@ const BuyerSchema = mongoose.model("buyer", new mongoose.Schema({
             dinner: { type: Boolean, default: false }
         }
     }
-<<<<<<< main
-});
-
-// Create the Buyer model
-const Buyer = mongoose.model('Buyer', BuyerSchema);
-
-export default Buyer;
-=======
 }));
 
 export async function getBuyer(email) {
@@ -226,4 +209,3 @@ export async function allBuyers() {
     const Buyers = await BuyerSchema.find({});
     return Buyers;
 }
->>>>>>> main

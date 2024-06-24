@@ -1,16 +1,3 @@
-<<<<<<< main
-import mongoose from 'mongoose';
-
-const TimeSchema = new mongoose.Schema({
-    meal: String,
-    time: String,
-    cost: Number
-});
-
-const Time = mongoose.model("Time", TimeSchema);
-
-export default Time;
-=======
 import mongoose from "mongoose";
 
 const TimeSchema = mongoose.model("time", new mongoose.Schema({
@@ -28,4 +15,3 @@ export async function setTimes(times) {
     await TimeSchema.deleteMany({});
     await TimeSchema.insertMany(times);
 }
->>>>>>> main
